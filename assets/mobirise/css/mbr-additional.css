@@ -10,12 +10,12 @@ body {
   font-size: 9rem;
 }
 .display-2 {
-  font-family: 'Noto Sans TC', sans-serif;
-  font-size: 2.8rem;
+  font-family: 'Playfair Display', serif;
+  font-size: 3rem;
   line-height: 1.1;
 }
 .display-2 > .mbr-iconfont {
-  font-size: 3.5rem;
+  font-size: 3.75rem;
 }
 .display-4 {
   font-family: 'Jost', sans-serif;
@@ -34,12 +34,12 @@ body {
   font-size: 2.75rem;
 }
 .display-7 {
-  font-family: 'Oxygen', sans-serif;
-  font-size: 1.4rem;
+  font-family: 'Arvo', serif;
+  font-size: 1.6rem;
   line-height: 1.5;
 }
 .display-7 > .mbr-iconfont {
-  font-size: 1.75rem;
+  font-size: 2rem;
 }
 /* ---- Fluid typography for mobile devices ---- */
 /* 1.4 - font scale ratio ( bootstrap == 1.42857 ) */
@@ -58,9 +58,9 @@ body {
     line-height: calc( 1.1 * (3.17rem + (7.2 - 3.17) * ((100vw - 20rem) / (48 - 20))));
   }
   .display-2 {
-    font-size: 2.24rem;
-    font-size: calc( 1.63rem + (2.8 - 1.63) * ((100vw - 20rem) / (48 - 20)));
-    line-height: calc( 1.3 * (1.63rem + (2.8 - 1.63) * ((100vw - 20rem) / (48 - 20))));
+    font-size: 2.4rem;
+    font-size: calc( 1.7rem + (3 - 1.7) * ((100vw - 20rem) / (48 - 20)));
+    line-height: calc( 1.3 * (1.7rem + (3 - 1.7) * ((100vw - 20rem) / (48 - 20))));
   }
   .display-4 {
     font-size: 0.88rem;
@@ -73,9 +73,9 @@ body {
     line-height: calc( 1.4 * (1.42rem + (2.2 - 1.42) * ((100vw - 20rem) / (48 - 20))));
   }
   .display-7 {
-    font-size: 1.12rem;
-    font-size: calc( 1.14rem + (1.4 - 1.14) * ((100vw - 20rem) / (48 - 20)));
-    line-height: calc( 1.4 * (1.14rem + (1.4 - 1.14) * ((100vw - 20rem) / (48 - 20))));
+    font-size: 1.28rem;
+    font-size: calc( 1.21rem + (1.6 - 1.21) * ((100vw - 20rem) / (48 - 20)));
+    line-height: calc( 1.4 * (1.21rem + (1.6 - 1.21) * ((100vw - 20rem) / (48 - 20))));
   }
 }
 /* Buttons */
@@ -683,14 +683,15 @@ a {
   transition: color 0.6s;
 }
 .cid-s48MCQYojq {
-  background-image: url("../../../assets/images/poya-calendar-min6-12-2000x1600.png");
+  background-image: url("../../../assets/images/wallpaperflare.com-wallpaper-1920x1080.jpg");
 }
 .cid-s48MCQYojq .mbr-section-title {
   text-align: center;
+  color: #fff0b0;
 }
 .cid-s48MCQYojq .mbr-text,
 .cid-s48MCQYojq .mbr-section-btn {
-  color: #232323;
+  color: #faeebc;
   text-align: center;
 }
 @media (max-width: 991px) {
@@ -699,6 +700,20 @@ a {
   .cid-s48MCQYojq .mbr-text {
     text-align: center;
   }
+}
+.cid-sY9hjTLuHU {
+  background-color: #ffffff;
+}
+@media (max-width: 991px) {
+  .cid-sY9hjTLuHU .image-wrapper {
+    margin-bottom: 1rem;
+  }
+}
+.cid-sY9hjTLuHU .row {
+  flex-direction: row-reverse;
+}
+.cid-sY9hjTLuHU img {
+  width: 100%;
 }
 .cid-s48udlf8KU {
   padding-top: 5rem;
