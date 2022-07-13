@@ -1,6 +1,6 @@
-baseURL: http://something-fresh.org/
+baseURL: https://www.amazingdhamma.org/
 languageCode: en-us
-title: Hugo Fresh Theme
+title: Amazing Dhamma
 theme: hugo-fresh
 googleAnalytics: # Put in your tracking code without quotes like this: UA-XXXXXX...
 # Disables warnings
@@ -19,7 +19,7 @@ params:
   description:
   navbarlogo:
   # Logo (from static/images/logos/___)
-    image: logos/fresh3.svg
+    image: logos/logo.svg
     link: /
   font:
     name: "Open Sans"
@@ -37,27 +37,28 @@ params:
     image: illustrations/worker2.svg
     # Footer logos (from static/images/logos/clients/___.svg)
     clientlogos:
-    - systek
-    - tribe
-    - kromo
-    - infinite
-    - gutwork
+    - stories
+    - articles
+    - meditation
+    - books
+    - abhidhamma
   # Customizable navbar. For a dropdown, add a "sublinks" list.
   navbar:
   - title: Guidence
     url: /posts/my-first-post/
-  - title: Practises
-    url: /
-  - title: Meditation
+  - title: Practices
+    url: /posts/
+  - title: Meditation Centers
     sublinks:
-    - title: Samatha Bhawana
-      url: /
-    - title: Vipassana Bhawana
-      url: /
-  - title: Log in
-    url: /
-  - title: Sign up
-    url: /
+    - title: Naa Uyana
+      url: https://nauyana.org/
+
+    - title: Mithirigala
+      url: https://www.nissarana.lk/
+
+  - title: Your thoughts
+    url: /#yourThoughts
+
     button: true
   sidebar:
     # Logo (from /images/logos/___.svg)
@@ -93,25 +94,25 @@ params:
         url: /
       - text: App settings
         url: /
-  section1:
-    title: Great power comes
-    subtitle: with great responsibility
-    tiles:
-    - title: App builder
-      icon: mouse-globe
-      text: This is some explanatory text that is on two rows
-      url: /
-      buttonText: Free trial
-    - title: Cloud integration
-      icon: laptop-cloud
-      text: This is some explanatory text that is on two rows
-      url: /
-      buttonText: Get started
-    - title: Add-ons & plugins
-      icon: plug-cloud
-      text: This is some explanatory text that is on two rows
-      url: /
-      buttonText: Get started
+  # section1:
+  #   title: Great power comes
+  #   subtitle: with great responsibility
+  #   tiles:
+  #   - title: App builder
+  #     icon: mouse-globe
+  #     text: This is some explanatory text that is on two rows
+  #     url: /
+  #     buttonText: Free trial
+  #   - title: Cloud integration
+  #     icon: laptop-cloud
+  #     text: This is some explanatory text that is on two rows
+  #     url: /
+  #     buttonText: Get started
+  #   - title: Add-ons & plugins
+  #     icon: plug-cloud
+  #     text: This is some explanatory text that is on two rows
+  #     url: /
+  #     buttonText: Get started
   # section2:
   #   title: You're here because you want the best
   #   subtitle: And we know it
@@ -133,7 +134,7 @@ params:
     buttonText: Get started
     buttonLink: "#"
   section4:
-    title: Our Clients love us!
+    title: Some of your thoughts!
     subtitle: Lorem ipsum sit dolor amet is a dummy text used by typography industry
     clients:
     - name: Irma Walters
@@ -151,7 +152,7 @@ params:
   section5: true
   footer:
     # Logo (from /images/logos/___)
-    logo: fresh-white-alt.svg
+    logo: logo.svg
     # Social Media Title
     socialmediatitle: Follow Us
     # Social media links (GitHub, Twitter, etc.). All are optional.
