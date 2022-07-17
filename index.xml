@@ -6,7 +6,25 @@
     <description>Recent content on Amazing Dhamma</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 26 Jun 2022 19:12:45 +0530</lastBuildDate><atom:link href="https://www.amazingdhamma.org/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 17 Jul 2022 12:29:10 +0530</lastBuildDate><atom:link href="https://www.amazingdhamma.org/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Pancha Nivarana</title>
+      <link>https://www.amazingdhamma.org/articles/path-to-happiness-1/</link>
+      <pubDate>Sun, 17 Jul 2022 12:29:10 +0530</pubDate>
+      
+      <guid>https://www.amazingdhamma.org/articles/path-to-happiness-1/</guid>
+      <description>There are certain human behaviors that naturally leads us to trouble. Read about those here..</description>
+    </item>
+    
+    <item>
+      <title>Path to Happiness</title>
+      <link>https://www.amazingdhamma.org/posts/path-to-happiness/</link>
+      <pubDate>Sun, 17 Jul 2022 12:28:53 +0530</pubDate>
+      
+      <guid>https://www.amazingdhamma.org/posts/path-to-happiness/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>Guide To Happiness</title>
       <link>https://www.amazingdhamma.org/abhidhamma/my-first-post-copy-2/</link>
@@ -40,15 +58,6 @@
       <pubDate>Sun, 26 Jun 2022 19:12:45 +0530</pubDate>
       
       <guid>https://www.amazingdhamma.org/abhidhamma/my-first-post-copy-5/</guid>
-      <description>asdfasd asdfasdf</description>
-    </item>
-    
-    <item>
-      <title>Guide To Happiness</title>
-      <link>https://www.amazingdhamma.org/articles/my-first-post-copy-2/</link>
-      <pubDate>Sun, 26 Jun 2022 19:12:45 +0530</pubDate>
-      
-      <guid>https://www.amazingdhamma.org/articles/my-first-post-copy-2/</guid>
       <description>asdfasd asdfasdf</description>
     </item>
     
@@ -283,6 +292,15 @@
       <pubDate>Sun, 26 Jun 2022 19:12:45 +0530</pubDate>
       
       <guid>https://www.amazingdhamma.org/stories/my-first-post-copy-5/</guid>
+      <description>asdfasd asdfasdf</description>
+    </item>
+    
+    <item>
+      <title>Guide To Happiness2</title>
+      <link>https://www.amazingdhamma.org/stories/test-post/</link>
+      <pubDate>Sun, 26 Jun 2022 19:12:45 +0530</pubDate>
+      
+      <guid>https://www.amazingdhamma.org/stories/test-post/</guid>
       <description>asdfasd asdfasdf</description>
     </item>
     
