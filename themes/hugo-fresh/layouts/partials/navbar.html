@@ -1,0 +1,64 @@
+{{- $navbar         := .Site.Params.navbar }}
+{{- $sidebarVisible := .Site.Params.sidebar }}
+{{ if .Params.sidebar }}
+{{ $sidebarVisible = .Params.sidebar }}
+{{ end }}
+{{- $navbarLogo     := .Site.Params.navbarlogo }}
+<nav class="navbar is-fresh is-transparent no-shadow" role="navigation" aria-label="main navigation">
+  <div class="container">
+    <div class="navbar-brand">
+      {{- if $navbarLogo}}
+      <a class="navbar-item h2" href="{{ $navbarLogo.link }}">
+        <img src="{{ printf "/images/%s" $navbarLogo.image | relURL }}" alt="" width="40" height="20">
+        <p class="text-warning "><strong>Amazing Dhamma</strong></p>
+      </a>
+      {{- end}}
+      <!-- <span class="navbar-caption-wrap badge badge-secondary"><a class="navbar-caption text-warning display-7" href="https://mobiri.se">Amazing Dhamma</a></span>
+      -->
+      <a class="navbar-item display-7 float-left" href="{{ $navbarLogo.link }}">
+        
+      </a>
+      
+
+      <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbar-menu">
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+      </a>
+    </div>
+
+      <div id="navbar-menu" class="navbar-menu is-static">
+
+
+        <div class="navbar-end">
+          {{- range $navbar }}
+          {{- if .sublinks }}
+          <div class="navbar-item has-dropdown is-hoverable">
+            <a class="navbar-link">
+              {{ .title }}
+            </a>
+
+            <div class="navbar-dropdown">
+              {{- range .sublinks }}
+              <a href="{{ .url }}" target="_blank" class="navbar-item">
+                {{ .title }}
+              </a>
+              {{- end }}
+            </div>
+          </div>
+          {{- else if .button }}
+          <a href="{{ .url }}" class="navbar-item">
+            <span class="button signup-button rounded secondary-btn raised">
+              {{ .title }}
+            </span>
+          </a>
+          {{- else }}
+          <a href="{{ .url }}" class="navbar-item is-secondary">
+            {{ .title }}
+          </a>
+          {{- end }}
+          {{- end }}
+        </div>
+      </div>
+  </div>
+</nav>

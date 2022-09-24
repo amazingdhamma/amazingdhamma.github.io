@@ -1,0 +1,33 @@
+
+
+{{ define "main" }}
+{{ partial "navbar.html" . }}
+  {{ partial "navbar-clone.html" . }}
+    
+    <div class="container">
+        {{- partial "_shared/title.html" . -}}
+        <div class="main-content">
+            <!-- Posts Index
+            ================================================== -->
+            <section class="recent-posts">            
+                <div class="section-title">                
+                    <h2 class="text-secondary"><span>All</span></h2>                
+                </div>            
+                <div class="row listrecent">
+                    {{ $post_paginator := .Paginate (.Pages) 6 }}
+                    {{ range ( $post_paginator.Pages ).Reverse }}
+                        {{- partial "list-partials/postbox-series.html" . -}}
+                    {{end}}
+                </div>
+            </section>
+            {{- partial "list-partials/pagination.html" $post_paginator -}}
+        </div>
+    </div>
+    
+    {{- partial "_shared/alertbar.html" . -}}
+{{ end }}
+
+{{ define "footer"}}
+    {{- partial "_shared/jumbotron.html" . -}}
+    {{- partial "_shared/footer.html" . -}}
+{{ end }}
