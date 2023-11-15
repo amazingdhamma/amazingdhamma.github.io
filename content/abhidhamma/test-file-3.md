@@ -1,4 +1,3 @@
-![image](https://github.com/amazingdhamma/amazingdhamma.github.io/assets/99382852/4a117260-2d02-4a3d-bd3e-b32db52f93ad)---
 title: "Test 3"
 description: The architect 
 summary: "What ever you experience in your life most probably could planned out before. This phenomenon involves planning is refferd as what we explain here."
