@@ -1,5 +1,5 @@
 ---
-title: "Vingghanaya"
+title: "Test"
 description: The architect 
 summary: "What ever you experience in your life most probably could planned out before. This phenomenon involves planning is refferd as what we explain here."
 readingtime: 2
