@@ -1,6 +1,6 @@
 ---
 title: "Patichcha Samuppadaya"
-description: Theory of Everything
+description: Theory of Everything and Anything
 summary: "This is one of the most important article this site has to offer. Please try to read it carefully understand it. If you having troubles understanding it, please drop us a note in feedback section"
 readingtime: 2
 date: 2022-09-24T21:48:14+05:30
