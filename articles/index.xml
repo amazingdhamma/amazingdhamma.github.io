@@ -1,1 +1,11 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Articles Series on Amazing Dhamma</title><link>https://www.amazingdhamma.org/articles/</link><description>Recent content in Articles Series on Amazing Dhamma</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Sat, 24 Sep 2022 20:57:58 +0530</lastBuildDate><atom:link href="https://www.amazingdhamma.org/articles/index.xml" rel="self" type="application/rss+xml"/></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Articles Series on Amazing Dhamma</title>
+    <link>https://www.amazingdhamma.org/articles/</link>
+    <description>Recent content in Articles Series on Amazing Dhamma</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 24 Sep 2022 20:57:58 +0530</lastBuildDate><atom:link href="https://www.amazingdhamma.org/articles/index.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>
