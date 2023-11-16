@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Stories on Amazing Dhamma</title>
+    <link>https://www.amazingdhamma.org/stories/</link>
+    <description>Recent content in Stories on Amazing Dhamma</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 24 Sep 2022 20:34:40 +0530</lastBuildDate><atom:link href="https://www.amazingdhamma.org/stories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Scorpian and the monk</title>
+      <link>https://www.amazingdhamma.org/stories/monk-and-scorpion/</link>
+      <pubDate>Sat, 24 Sep 2022 20:34:40 +0530</pubDate>
+      
+      <guid>https://www.amazingdhamma.org/stories/monk-and-scorpion/</guid>
+      <description>Why do we need to be good to others always</description>
+    </item>
+    
+    <item>
+      <title>Traveler</title>
+      <link>https://www.amazingdhamma.org/stories/traveler/</link>
+      <pubDate>Sat, 24 Sep 2022 20:34:40 +0530</pubDate>
+      
+      <guid>https://www.amazingdhamma.org/stories/traveler/</guid>
+      <description>Why people needs to be simple</description>
+    </item>
+    
+    <item>
+      <title>Rice pounding monk</title>
+      <link>https://www.amazingdhamma.org/stories/rice-pounder/</link>
+      <pubDate>Sun, 26 Jun 2022 19:12:45 +0530</pubDate>
+      
+      <guid>https://www.amazingdhamma.org/stories/rice-pounder/</guid>
+      <description>For those who thinks a lot about them selves</description>
+    </item>
+    
+  </channel>
+</rss>

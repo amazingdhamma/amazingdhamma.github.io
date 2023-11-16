@@ -1,0 +1,14 @@
+<!-- Recursive Partial: layouts/partials/section-loop.html -->
+{{ define "section-loop" }}
+  {{ $section := . }}
+  {{ with $section.Pages.ByDate.Reverse }}
+    {{ range . }}
+      {{ if and (gt .WordCount 10) (.Params.image) }}
+        {{ partial "postbox.html" . }}
+      {{ end }}
+      {{ with .Sections }}
+        {{ partial "section-loop.html" . }}
+      {{ end }}
+    {{ end }}
+  {{ end }}
+{{ end }}
